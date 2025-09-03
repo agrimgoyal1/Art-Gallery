@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    border: 0;
+    align-items: center;
+}
+.title {
+    width: 100%;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #304FB0;
+    font-size: 3rem;
+    color: white;
+}
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    height: 70px;
+    font-size: 30px;
+    color: black;
+
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.aboutus {
+    margin-top: 20px;
+    background-color: #848AEB;
+    border-radius: 25px;
+}
+#intro, #art {
+    padding-left: 25px;
+    padding-top: px;
+    padding-right: 25px;
+    font-size: 25px;
+}
+h1 {
+    text-align: center;
+    /* color: white; */
+}
+footer {
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+#final {
+    background-color: #304FB0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#stat1 , #stat2 {
+    color: white;
+    padding: 2px;
+    margin: 0;
+    font-size: 22px;
+}
+.art {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work img {
+    border: 4px solid black;
+    width: 100%;
+}
+.details {
+    padding: 10px ;
+    width: 1000px;
+    font-family:cursive;
+    text-align: justify;
+}
+.work {
+    border: 5px solid black;
+    background-color: gainsboro;
+}
+.head {
+    display: flex;
+    justify-content: center;
+}
